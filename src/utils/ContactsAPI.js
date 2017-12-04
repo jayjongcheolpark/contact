@@ -22,7 +22,7 @@ export const remove = (contact) =>
     .then(data => data.contact)
 
 export const create = (body) =>
-  fetch(`${api}/contancts`, {
+  fetch(`${api}/contacts`, {
     method: 'POST',
     headers: {
       ...headers,
